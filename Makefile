@@ -1,7 +1,7 @@
 SUBDIRS = libs
 ROOT_FLAGS := `root-config --cflags --libs`
 CFLAGS := -O3 -I/usr/include/root/ -lstdc++ -std=c++11 -g -Wall -Ilibs/include/
-LIBS := -Llibs -lboost_program_options -lboost_system -lboost_filesystem 
+LIBS := -Llibs -lboost_program_options -lboost_system -lboost_filesystem -lMyServiceFunctions -lBoostServiceFunctions
 CC := g++ 
 
 CXX_FILES := $(wildcard src/*.cxx)
