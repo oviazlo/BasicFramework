@@ -1,4 +1,4 @@
-SUBDIRS := 
+SUBDIRS := MyServiceFunctions BoostServiceFunctions
 
 .PHONY: subdirs $(SUBDIRS)
 
